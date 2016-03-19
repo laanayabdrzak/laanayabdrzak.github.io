@@ -5,7 +5,7 @@ url: "laanayabdrzak.github.io" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Abderrazak Laanaya
+  title: Abderrazak LAANAYA
   avatar: ic_profil.jpg
   gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
@@ -21,11 +21,11 @@ theme:
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "laanayabdrzak@gmail.com"
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: "https://www.facebook.com/abderrazak.laanaya"
   flickr:
   github: "laanayabdrzak"
   google_plus:
