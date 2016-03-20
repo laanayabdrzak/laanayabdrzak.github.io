@@ -60,8 +60,7 @@ In this post I'm gonna focus on **data-driven** apps.
 
 ## Full Application Architecture
 
- <p align="center">
-    <img src="https://github.com/laanayabdrzak/laanayabdrzak.github.io/blob/master/_posts/Full_Architecture_Application.png" alt="Screenshots"/>
-    
+![Full_Architecture_Application](/img/Full_Architecture_Application.png)
+
 
 
