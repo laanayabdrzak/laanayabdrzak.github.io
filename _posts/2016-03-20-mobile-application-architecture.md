@@ -49,19 +49,19 @@ In this post I'm gonna focus on **data-driven** apps.
 ## Mobile Client Architecture
 
  <p align="center">
-    <img src="https://github.com/laanayabdrzak/Mobile-Application-Architecture/blob/master/Mobile_Client_Architecture.png" alt="Screenshots"/>
+    <img src="https://github.com/laanayabdrzak/laanayabdrzak.github.io/blob/master/_posts/Mobile_Client_Architecture.png" alt="Screenshots"/>
 </p>
  
 ## Server Side API
 
 <p align="center">
-    <img src="https://github.com/laanayabdrzak/Mobile-Application-Architecture/blob/master/Server_Side_API.png" alt="Screenshots"/>
+    <img src="https://github.com/laanayabdrzak/laanayabdrzak.github.io/blob/master/_posts/Server_Side_API.png" alt="Screenshots"/>
 </p>
 
 ## Full Application Architecture
 
  <p align="center">
-    <img src="https://github.com/laanayabdrzak/Mobile-Application-Architecture/blob/master/Full_Architecture_Application.png" alt="Screenshots"/>
+    <img src="https://github.com/laanayabdrzak/laanayabdrzak.github.io/blob/master/_posts/Full_Architecture_Application.png" alt="Screenshots"/>
     
 
 
