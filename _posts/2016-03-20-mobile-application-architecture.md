@@ -59,5 +59,16 @@ In this post I'm gonna focus on **data-driven** apps.
 
 ![Full_Architecture_Application](/img/Full_Architecture_Application.png)
 
+## Controllers
+
+Controllers work with views and models to **implement dynamic behaviors** including:
+
+-  Network requests (API interaction)
+
+-  Persistence (Storing data)
+
+-  Event handling (Button clicks, Data Input)
+
+-  Navigation (Moving between app views)
 
 
