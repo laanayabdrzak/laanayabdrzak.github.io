@@ -118,7 +118,11 @@ Leveraging **device features** including:
 In summary, we have reviewed:
 
 - Mobile is growing fast and demand is high
+
 - We are focusing on data-driven app development
+
 - **Data-driven** apps require a server-side API
+
 - All mobile development has a consistent architecture
+
 - Mobile largely is **MVC + Networking + Hardware**
