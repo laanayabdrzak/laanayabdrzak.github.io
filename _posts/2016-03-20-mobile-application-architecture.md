@@ -4,9 +4,9 @@ title:  Mobile Application Architecture
 ---
 Broadly, there are **two categories** of mobile apps available:
 
-+ **View-heavy data-driven**
+* **View-heavy data-driven**
   - Email, Social, News, Todo
-+ **Graphics-heavy drawing**
+* **Graphics-heavy drawing**
   - Games, Creative Art, Photo Editing 
 
 In this post I'm gonna focus on **data-driven** apps.
@@ -62,71 +62,6 @@ In this post I'm gonna focus on **data-driven** apps.
 
  <p align="center">
     <img src="https://github.com/laanayabdrzak/Mobile-Application-Architecture/blob/master/Full_Architecture_Application.png" alt="Screenshots"/>
- 
-## Controllers
-
-Controllers work with views and models to **implement dynamic behaviors** including:
-
--  Network requests (API interaction)
-
--  Persistence (Storing data)
-
--  Event handling (Button clicks, Data Input)
-
--  Navigation (Moving between app views)
-
-## Views
- 
- - Views **display data** or **receive data** inputs.
-
-## Models
-
-Models on mobile usually reflect the server state for **data retrieved via APIs** including:
-
-- Model definitions (properties, relationships)
-
-- JSON/XML serialization/deserialization
-
-- Persistence Storage (database)
-
-- Data Formatters
     
-## Networking
 
-Networking on mobile means **interacting with a server in** one of the following ways:
 
-- Interacting with models via a REST API
-
-- Displaying external images in the view
-
-- Audio/video playback
-
-- Socket programming (rare)
-    
-## Hardware
-
-Leveraging **device features** including:
-
-- Camera
-
-- GPS
-
-- Accelerometer
-
-- Bluetooth, AirDrop
-
-- Contacts, Calendar, SMS, Mail
-    
-## Architecture Review
-
-In summary, we have reviewed:
-
-- Mobile is growing fast and demand is high
-- We are focusing on data-driven app development
-- **Data-driven** apps require a server-side API
-- All mobile development has a consistent architecture
-- Mobile largely is **MVC + Networking + Hardware**
-
-## Implementation
-
-check this [app](https://github.com/laanayabdrzak/Android-Boilerplate)
