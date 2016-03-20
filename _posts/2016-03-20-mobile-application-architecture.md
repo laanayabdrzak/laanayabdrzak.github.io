@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Mobile Application Architecture
-feature-img: "img/sample_feature_img.png"
+feature-img: "img/background_post_2.jpg"
 ---
 Broadly, there are **two categories** of mobile apps available:
 
