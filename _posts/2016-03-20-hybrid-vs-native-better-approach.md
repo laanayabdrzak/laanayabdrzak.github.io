@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Native vs Hyprid better approach
-feature-img: "img/background_post_3.png"
+feature-img: "img/background_post_3.jpg"
 ---
 
 Customer experience for mobile is more important to your business than you might think. Nobody has time for bad user experiences, your customers and employees included. 
