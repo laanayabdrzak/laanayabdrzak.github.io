@@ -6,9 +6,9 @@ feature-img: "img/sample_feature_img.png"
 Broadly, there are **two categories** of mobile apps available:
 
 * **View-heavy data-driven**
-  - Email, Social, News, Todo
+    - Email, Social, News, Todo
 * **Graphics-heavy drawing**
-  - Games, Creative Art, Photo Editing 
+    - Games, Creative Art, Photo Editing 
 
 In this post I'm gonna focus on **data-driven** apps.
 
