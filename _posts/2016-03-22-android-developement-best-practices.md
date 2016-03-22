@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Android Developement \: Some of the best practices
+title:  Android Developement: Some of the best practices
 feature-img: "img/background_post_5.jpg"
 ---
 
