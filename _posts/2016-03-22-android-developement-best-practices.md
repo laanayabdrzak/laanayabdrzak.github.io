@@ -42,9 +42,11 @@ Here is the selection:
 
 - Monitor power source and battery more data updates while charging? Suspend updates when battery is low?
 
+- **onLowMemory()** it will be called when the whole System runs low on memory, not your App, so you can't exactly avoid OOMs with it.
+
 - Drain battery is **30%** (image, animation, ...), and **70%** (Analytics, ads, maps, gps)
 
-- Monitor connectivity and type of connection (more data updates while on wifi?)
+- Monitor connectivity and type of connection (more **data** updates while on **wifi?**)
 
 - Use the [Account Manager](http://developer.android.com/reference/android/accounts/AccountManager.html) to suggest login usernames and email addresses
 
