@@ -10,7 +10,7 @@ Here is the selection:
 
 - Think twice before adding any **third party library**, it’s a really serious commitment
 
-- Don’t use a **database** unless you really need to, check **realm** is really awsome
+- Don’t use a **database** unless you really need to, check **realm** is really awesome!
 
 - Hitting the 65k method count mark is gonna happen fast, I mean really fast! And **multidexing** can save you
 
