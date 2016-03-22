@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Android developement: Some of the best practices
-feature-img: "img/background_post_5.jpg"
+title:  Mobile Application Architecture2
+feature-img: "img/background_post_2.jpg"
 ---
 
 Hi! After a modest number of projects I've decided to give you some of the things that experience made me learn, I mean the hard way.
