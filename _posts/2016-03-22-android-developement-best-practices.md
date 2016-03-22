@@ -40,7 +40,7 @@ Here is the selection:
 
 - Do not make a **deep hierarchy** of **ViewGroups**
 
-- Monitor power source and battery more data updates while charging? Suspend updates when battery is low?
+- Monitor power source and **battery** more data updates while charging? Suspend updates when battery is low?
 
 - **onLowMemory()** it will be called when the whole System runs low on memory, not your App, so you can't exactly avoid OOMs with it.
 
