@@ -72,7 +72,9 @@ Here is the selection:
 
   - Don't reference **View** from **static** object
 
-  - Avoid putting views inside collection that's don't have clear memory pattern, you can using **WeakHasMap**
+  - Avoid putting views inside collection that's don't have clear memory pattern, you can use **WeakHasMap**
+  
+- **FlatBuffers** is an **efficient** cross platform serialization library, so use it
 
 
 
