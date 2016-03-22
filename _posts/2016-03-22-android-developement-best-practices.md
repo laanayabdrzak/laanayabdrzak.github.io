@@ -8,11 +8,11 @@ Hi! After a modest number of projects I've decided to share with you some of the
 
 Here is the selection:
 
-- Think twice before adding any **third party library**, it’s a really serious commitment
+- Think twice before adding any **third party library**, it’s really a serious commitment
 
 - Don’t use a **database** unless you really need to
 
-- You can think about **realm** is really awesome!
+- You can think about **realm** it's really awesome!
 
 - Hitting the 65k method count mark is gonna happen fast, I mean really fast! And **Multidexing** can save you
 
