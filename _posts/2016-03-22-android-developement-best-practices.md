@@ -76,6 +76,8 @@ Here is the selection:
   
 - **FlatBuffers** is an **efficient** cross platform serialization library, so use it
 
+- **Serializable** it's simple to implement, but in term of performance it's really bad :(
+
 
 
 
