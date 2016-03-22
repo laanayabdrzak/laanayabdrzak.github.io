@@ -10,9 +10,11 @@ Here is the selection:
 
 - Think twice before adding any **third party library**, it’s a really serious commitment
 
-- Don’t use a **database** unless you really need to, check **realm** is really awesome!
+- Don’t use a **database** unless you really need to
 
-- Hitting the 65k method count mark is gonna happen fast, I mean really fast! And **multidexing** can save you
+- You can think about **realm** is really awesome!
+
+- Hitting the 65k method count mark is gonna happen fast, I mean really fast! And **Multidexing** can save you
 
 - **RxJava** is the best alternative to **AsyncTasks** and so much more
 
@@ -20,9 +22,9 @@ Here is the selection:
 
 - Don't write your own **HTTP** client, use **Volley** or **OkHttp** libraries
 
-- Shorten your code with **Retrolambda**
+- Shorten your code with **RetroLambda**
 
-- Combine **RxJava** with **Retrofit** and **Retrolambda** for maximum awesomeness!
+- Combine **RxJava** with **Retrofit** and **RetroLambda** for maximum awesomeness!
 
 - I use **event Bus** and it’s great, but I don’t use it too much because the codebase would get really messy
 
@@ -40,13 +42,15 @@ Here is the selection:
 
 - Do not make a **deep hierarchy** of **ViewGroups**
 
-- Monitor **power source** and **battery** more data updates while charging? Suspend updates when **battery** is **low**? you can think about **JobScheduler**
+- Monitor **power source** and **battery** more data updates while charging? Suspend updates when **battery** is **low**?
+
+- You can think about **JobScheduler**
 
 - **onLowMemory()** it will be called when the whole System runs low on memory, not your App, so you can't exactly avoid OOMs with it.
 
-- Drain battery is **30%** (image, animation, ...), and **70%** (Analytics, ads, maps, gps)
+- **Drain battery** is **30%** (image, animation, ...), and **70%** (Analytics, ads, maps, gps)
 
-- Monitor connectivity and type of connection (more **data** updates while on **wifi?**)
+- **Monitor** connectivity and type of connection (more **data** updates while on **wifi?**)
 
 - Use the [Account Manager](http://developer.android.com/reference/android/accounts/AccountManager.html) to suggest login usernames and email addresses
 
