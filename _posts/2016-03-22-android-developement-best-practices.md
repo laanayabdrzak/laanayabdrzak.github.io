@@ -18,6 +18,8 @@ Here is the selection:
 
 - **Retrofit** is the best networking library there is
 
+- Don't write your own **HTTP** client, use **Volley** or **OkHttp** libraries
+
 - Shorten your code with **Retrolambda**
 
 - Combine **RxJava** with **Retrofit** and **Retrolambda** for maximum awesomeness!
@@ -33,8 +35,6 @@ Here is the selection:
 - Use **Gradle** and its recommended project structure
 
 - Put passwords and sensitive data in gradle.properties
-
-- Don't write your own **HTTP** client, use **Volley** or **OkHttp** libraries
 
 - Use **styles** to avoid duplicate attributes in layout XMLs
 
