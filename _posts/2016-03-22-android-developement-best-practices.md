@@ -4,7 +4,7 @@ title:  Android Development — Some of the best practices
 feature-img: "img/background_post_5.jpg"
 ---
 
-Hi! After a modest number of projects I've decided to give you some of the things that experience made me learn, I mean the hard way.
+Hi! After a modest number of projects I've decided to share with you some of the things that experience made me learn, I mean the hard way.
 
 Here is the selection:
 
