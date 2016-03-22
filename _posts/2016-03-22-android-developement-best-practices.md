@@ -50,13 +50,13 @@ Here is the selection:
 
 - Use the [Account Manager](http://developer.android.com/reference/android/accounts/AccountManager.html) to suggest login usernames and email addresses
 
-- Give your methods a clear name for what they are going to do
+- Give your **methods** a **clear name** for what they are going to do
 
 - The **launch screen** is a user’s first experience of your application
 
 - Do not show the **launch screen** if you don’t have to
 
-- Tests are great for performance: Write slow (but correct) implementation then verify optimizations don’t break anything with tests
+- **Tests** are great for performance: Write slow (but correct) implementation then verify optimizations don’t break anything with tests
 
 - Keep your **colors.xml** short and DRY, just define the palette
 
