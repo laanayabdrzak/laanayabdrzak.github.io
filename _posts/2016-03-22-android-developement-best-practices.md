@@ -12,7 +12,7 @@ Here is the selection:
 
 - Don’t use a **database** unless you really need to
 
-- You can think about **realm** it's really awesome!
+- You can think about [realm](https://realm.io/) it's really awesome!
 
 - Hitting the 65k method count mark is gonna happen fast, I mean really fast! And **Multidexing** can save you
 
