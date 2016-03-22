@@ -34,7 +34,7 @@ Here is the selection:
 
 - Use **Gradle** and its recommended project structure
 
-- Put passwords and sensitive data in gradle.properties
+- Put passwords and sensitive data in **gradle.properties**
 
 - Use **styles** to avoid duplicate attributes in layout XMLs
 
@@ -58,11 +58,11 @@ Here is the selection:
 
 - **Tests** are great for performance: Write slow (but correct) implementation then verify optimizations don’t break anything with tests
 
-- Keep your **colors.xml** short and DRY, just define the palette
+- Keep your **colors.xml** short and **DRY**, just define the palette
 
-- Also keep **dimens.xml** DRY, define generic constants
+- Also keep **dimens.xml** **DRY**, define generic constants
 
-- In reality **perfExternal** is rarely used as an application on the external storage is stopped once the device is connected to a computer and mounted as USB storage
+- In reality **perfExternal** is rarely used as an application on the **external storage** is stopped once the device is connected to a computer and mounted as USB storage
 
 - Use **StringBuffer** or **Stringbuilder** classes when there is a lot of modifications to string of characters
 
