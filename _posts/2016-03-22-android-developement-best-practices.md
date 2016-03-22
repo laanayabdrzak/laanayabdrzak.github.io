@@ -64,6 +64,14 @@ Here is the selection:
 
 - Use **StringBuffer** or **Stringbuilder** classes when there is a lot of modifications to string of characters
 
+- To avoid **Memory Leaks** :
+
+  - Don't reference **View** inside **AsyncCallback**
+
+  - Don't reference **View** from **static** object
+
+  - Avoid putting views inside collection that's don't have clear memory pattern, you can using **WeakHasMap**
+
 
 
 
