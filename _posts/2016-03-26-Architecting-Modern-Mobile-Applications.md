@@ -101,8 +101,8 @@ abderrazak.com.recycleviewcardview
 │   └─ etc..
 ├─ util
 └─ views
-   ├─ adapters
-   └─ widgets
+    ├─ adapters
+    └─ widgets
 ```
 **Gains and Benefits**
 
