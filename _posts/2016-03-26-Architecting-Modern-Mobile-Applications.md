@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Architecting Modern Mobile Applications
-feature-img: "img/background_post_3.png"
+feature-img: "img/background_post_4.jpg"
 ---
 
 Hey there! After my post on [Android Development : Some of the best practices](https://medium.com/@laanayabdrzak/android-development-some-of-the-best-practices-27722c685b6a#.de2dny4t6), I decided to give you taste of what I consider a good approach when it comes to **architecting modern mobile applications** (android in this case).
