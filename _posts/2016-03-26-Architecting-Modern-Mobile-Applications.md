@@ -42,7 +42,7 @@ In Android we have a problem arising from the fact that Android activities are *
 
 - **RxJava** is a **JVM** implementation of **Reactive Extensions**, developed by NetFlix, and is very popular among Java developers. 
 
-- **RxJava** is the new hotness amongst Android developers these days. I know it can be difficult to approach initially when you come from an imperative world. But believe me once you get in depth you gonna love the way that **RxJava** can remove the need for having nested callbacks, it's so awesome!
+- **RxJava** is the new hotness amongst Android developers these days. I know it can be difficult to approach initially when you come from an imperative world. But believe me once you get your hands dirty you gonna love the way that **RxJava** can remove the need for having nested callbacks, it's so awesome!
 
 ## Dependency Injection approach: [Dagger 2](http://google.github.io/dagger/)
 
