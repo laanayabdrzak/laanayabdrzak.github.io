@@ -38,7 +38,7 @@ In Android we have a problem arising from the fact that Android activities are *
 
 ## ReactiveX approach: [RxJava/ RxAndroid](https://github.com/ReactiveX/RxAndroid)
 
-- Developing an Android app that has lots of network connections, user interactions, and animations often means writing code that is full of nested callbacks, wich I called callback hell. ReactiveX offers an alternative approach that is both clear and concise, to manage asynchronous tasks and events.
+- Developing an Android app that has lots of network connections, user interactions, and animations often means writing code that is full of nested callbacks, wich I called callback hell. **ReactiveX** offers an alternative approach that is both clear and concise, to manage asynchronous tasks and events.
 
 - **RxJava** is a **JVM** implementation of **Reactive Extensions**, developed by NetFlix, and is very popular among Java developers. 
 
