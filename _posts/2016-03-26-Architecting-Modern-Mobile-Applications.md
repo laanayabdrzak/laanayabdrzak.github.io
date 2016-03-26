@@ -91,14 +91,14 @@ abderrazak.com.recycleviewcardview
 ├─ data
 │   ├─ local
 │   ├─ model
-│   ├─ remote
+│   └─ remote
 ├─ injection
 │   ├─ component
 │   └─ module
 ├─ ui
 │   ├─ main
 │   ├─ detail
-│   ├─ etc..
+│   └─ etc..
 ├─ util
 └─ views
    ├─ adapters
