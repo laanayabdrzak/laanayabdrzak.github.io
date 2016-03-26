@@ -94,7 +94,7 @@ abderrazak.com.recycleviewcardview
 │   ├─ remote
 ├─ injection
 │   ├─ component
-│   ├─ module
+│   └─ module
 ├─ ui
 │   ├─ main
 │   ├─ detail
