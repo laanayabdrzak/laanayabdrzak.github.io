@@ -83,8 +83,8 @@ At least the advantages for using **Dagger 2**:
 
 The first question in building an application is **How do I divide it up into packages?**. For typical business applications, there seems to be two ways of answering this question.
 
-- **Package By Feature**
-   - In package-by-feature, the package names correspond to important, high-level aspects of the problem domain. Each package usually contains only the items related to that particular feature, and no other feature. For example:
+**Package By Feature**
+- In package-by-feature, the package names correspond to important, high-level aspects of the problem domain. Each package usually contains only the items related to that particular feature, and no other feature. For example:
 
 ```
 abderrazak.com.recycleviewcardview
@@ -129,7 +129,7 @@ By looking at the structure you can already tell what the app is all about (figu
 - And much more reusable modules.
 
 
-- **Package By Layer**
+**Package By Layer**
 
 The competing package-by-layer style is different. In package-by-layer, the highest level packages reflect the various application "layers", instead of features, as in:
 
