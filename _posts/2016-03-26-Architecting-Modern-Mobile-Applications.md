@@ -38,11 +38,11 @@ In Android we have a problem arising from the fact that Android activities are *
 
 ## ReactiveX approach: [RxJava/ RxAndroid](https://github.com/ReactiveX/RxAndroid)
 
-- Developing an Android app that has lots of network connections, user interactions, and animations often means writing code that is full of nested callbacks. Such code, sometimes called callback hell. ReactiveX offers an alternative approach that is both clear and concise, to manage asynchronous tasks and events.
+- Developing an Android app that has lots of network connections, user interactions, and animations often means writing code that is full of nested callbacks, wich I called callback hell. ReactiveX offers an alternative approach that is both clear and concise, to manage asynchronous tasks and events.
 
 - **RxJava** is a **JVM** implementation of **Reactive Extensions**, developed by NetFlix, and is very popular among Java developers. 
 
-- **RxJava** is the new hotness amongst Android developers these days. I know it can be difficult to approach initially when you come from an imperative world. But believe me once you get deep in it you gonna love the way that RxJava can remove the need for having nested callbacks(called callbacks hell), it's so awesome!
+- **RxJava** is the new hotness amongst Android developers these days. I know it can be difficult to approach initially when you come from an imperative world. But believe me once you get deep in it you gonna love the way that RxJava can remove the need for having nested callbacks, it's so awesome!
 
 ## Dependency Injection approach: [Dagger 2](http://google.github.io/dagger/)
 
