@@ -69,16 +69,6 @@ At least the advantages for using **Dagger 2**:
 - Is a **Java library** for using **Lambda expression syntax** in Android and other pre-JDK8 platforms. It helps keep your code tight and readable especially if you use a functional style with for example with **RxJava**.
 
 
-## Testing approach: Espresso/ JUnit/ Mockito/ Robolectric
-
-**Testing your app** is an integral part of the app development process. Testing allows you to verify the correctness, functional behavior, and usability of your app before it is released publicly.
-
-- **Presentation layer**: UI tests with Espresso 2 and Android Instrumentation.
-
-- **Domain layer**: JUnit + Mockito since it is a regular Java module.
-
-- **Data layer**: Migrated test battery to use Robolectric 3 + JUnit + Mockito. Tests for this layer used to live in a separate Android Module, since back then (at the moment of the first version of the example), there was no built-in unit test support and setting up a framework like robolectric was complicated and required a serie of hacks to make it work properly.
-
 ## Package organization approach: Package By Feature not Layer
 
 The first question in building an application is **How do I divide it up into packages?**. For typical business applications, there seems to be two ways of answering this question.
@@ -158,6 +148,16 @@ On Android, we use **gradle**, which is the official build tool system for andro
 - Android Project Structure
 
 - More..
+
+## Testing approach: Espresso/ JUnit/ Mockito/ Robolectric
+
+**Testing your app** is an integral part of the app development process. Testing allows you to verify the correctness, functional behavior, and usability of your app before it is released publicly.
+
+- **Presentation layer**: UI tests with Espresso 2 and Android Instrumentation.
+
+- **Domain layer**: JUnit + Mockito since it is a regular Java module.
+
+- **Data layer**: Migrated test battery to use Robolectric 3 + JUnit + Mockito. Tests for this layer used to live in a separate Android Module, since back then (at the moment of the first version of the example), there was no built-in unit test support and setting up a framework like robolectric was complicated and required a serie of hacks to make it work properly.
 
 
 
