@@ -92,7 +92,9 @@ abderrazak.com.recycleviewcardview
 │   ├─ local
 │   ├─ model
 │   ├─ remote
-├─ managers
+├─ injection
+│   ├─ component
+│   ├─ module
 ├─ ui
 │   ├─ main
 │   ├─ detail
