@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Native vs Hyprid better approach
+title:  Native vs Hybrid better approach
 feature-img: "img/background_post_3.jpg"
 ---
 
