@@ -1,5 +1,5 @@
 
-Apps nowadays are all about fancy animations, complex transitions and custom views And the experience must be the most robust and similar as possible in any device 
+Apps nowadays are all about fancy **animations**, complex **transitions** and **custom views** And the experience must be the most robust and similar as possible in any device 
 
 ## Patterns to avoid bad performance
 
@@ -14,6 +14,14 @@ A lot of frame drops? Check for:
 - Unnecessary overdraw
 
 - Customs views not properly made
+
+##  Patterns to follow when you have too much overdraw
+
+- Simplify your drawables
+
+- Use 9patch with transparent parts
+
+- Caution with setting alpha in your views
 
 ## Patterns for custom views
   
