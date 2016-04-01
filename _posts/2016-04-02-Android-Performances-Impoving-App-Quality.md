@@ -3,29 +3,27 @@ Apps nowadays are all about fancy **animations**, complex **transitions** and **
 
 ## Patterns to avoid bad performance
 
-- Unnecessary invalidations that may trigger a cascade of invalidations.(GPU View Updates can help profiling)
+- Avoid unnecessary invalidations that may trigger a cascade of invalidations
 
-- RelativeLayouts in a high hierarchy level
+- Use RelativeLayouts in a high hierarchy level
 
-- Nested weights in LinearLayouts
+- Avoid Nested weights in LinearLayouts ( Cz each child needs to be measured twice)
 
-- Unnecessary overdraw
-
-- Customs views not properly made
+- Avoid Customs views not properly made
 
 - Avoid Creating Unnecessary Objects
 
-- Use Static Final For Constants
+- Use Static Final For Constants (static 15%-20% faster)
 
-- Avoid Internal Getters/Setters
+- Primitives (Integer vs Float 2x slower)
+
+- Avoid Internal Getters/Setters (direct field access 3x faster)
 
 - Use Enhanced For Loop Syntax
 
 - Consider Package Instead of Private Access with Private Inner Classes
 
 - Avoid Using Floating-Point
-
-- Know and Use the Libraries
 
 - Use Native Methods Carefully
 
