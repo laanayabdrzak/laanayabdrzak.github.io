@@ -3,6 +3,8 @@ Apps nowadays are all about fancy **animations**, complex **transitions** and **
 
 ## Patterns to avoid bad performance
 
+- Avoid blocking main Thread 
+
 - Avoid unnecessary invalidations that may trigger a cascade of invalidations
 
 - Use RelativeLayouts in a high hierarchy level
