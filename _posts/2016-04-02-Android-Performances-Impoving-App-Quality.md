@@ -3,8 +3,6 @@ Apps nowadays are all about fancy **animations**, complex **transitions** and **
 
 ## Patterns to avoid bad performance
 
-A lot of frame drops? Check for:
-
 - Unnecessary invalidations that may trigger a cascade of invalidations.(GPU View Updates can help profiling)
 
 - RelativeLayouts in a high hierarchy level
