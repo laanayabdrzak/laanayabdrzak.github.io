@@ -37,6 +37,8 @@ Keep It as Simple as Possible (KISS)
 
 - Consider creating your own ViewGroup 
 
+- RecyclerView (replaces ListView and GridView)
+
 ## Patterns to avoid memory churn
 
 - Don’t allocate a large amount of unnecessary objects:
