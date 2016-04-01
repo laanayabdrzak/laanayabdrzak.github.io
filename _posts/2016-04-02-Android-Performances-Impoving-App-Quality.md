@@ -13,6 +13,22 @@ Apps nowadays are all about fancy **animations**, complex **transitions** and **
 
 - Customs views not properly made
 
+- Avoid Creating Unnecessary Objects
+
+- Use Static Final For Constants
+
+- Avoid Internal Getters/Setters
+
+- Use Enhanced For Loop Syntax
+
+- Consider Package Instead of Private Access with Private Inner Classes
+
+- Avoid Using Floating-Point
+
+- Know and Use the Libraries
+
+- Use Native Methods Carefully
+
 ##  Patterns to follow when you have too much overdraw
 
 - Simplify your drawables
