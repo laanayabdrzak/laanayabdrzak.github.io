@@ -25,8 +25,6 @@ Apps nowadays are all about fancy **animations**, complex **transitions** and **
 
 - Consider Package Instead of Private Access with Private Inner Classes
 
-- Avoid Using Floating-Point
-
 - Use Native Methods Carefully
 
 ##  Patterns to follow when you have too much overdraw
