@@ -27,7 +27,9 @@ A lot of frame drops? Check for:
   
 Keep It as Simple as Possible (KISS)
 
-- Use <merge> as root in your layout
+- Use <merge> tag as root in your layout (avoid extra ViewGroups on inflation)
+
+- <include> tag (easy code reuse of common layouts)
 
 - Avoid unnecessary layouts
 
