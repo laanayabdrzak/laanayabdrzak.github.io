@@ -1,5 +1,5 @@
 
-Apps nowadays are all about fancy **animations**, complex **transitions** and **custom views** And the experience must be the most robust and similar as possible in any device .
+Apps nowadays are all about fancy **animations**, complex **transitions** and **custom views** And the experience must be the most robust and similar as possible in any device . those patterns help you build an app that's smooth, responsive, and uses as little battery as possible
 
 
 ## Patterns to avoid bad performance
