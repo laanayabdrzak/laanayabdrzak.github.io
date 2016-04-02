@@ -28,11 +28,11 @@ Apps nowadays are all about fancy **animations**, complex **transitions** and **
 
 - Use Native Methods Carefully
 
-##  Patterns to follow when you have too much overdraw
+##  Patterns to avoid overdraw
 
 - Simplify your drawables
 
-- Use 9patch with transparent parts
+- Use nine patch with transparent parts
 
 - Caution with setting alpha in your views
 
