@@ -120,7 +120,7 @@ Handle bitmaps in a poper way:
 
 - Use JobScheduler API to batch across OS
 
-## Patterns to use Services
+## Patterns for Services
 
 - Do not keep running service unless it's actively performing a job. Also be careful to stop service it when its work is done
 
