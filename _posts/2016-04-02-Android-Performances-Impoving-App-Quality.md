@@ -136,3 +136,16 @@ Handle bitmaps in a poper way:
 
 - Stores the current Thread reference in your app, so that you want to interrupt the Thread later on. e.g On network failure you can cancel that thread operation.
 
+## Patterns to avoid ARNs
+
+- On UI thread do as little work as possible.
+
+- Process.setThreadPriority() else Thread will be equal to UI thread
+
+- If your application is doing work in the background in response to user input, show that progress is being made (such as with a ProgressBar in your UI).
+
+- For games specifically, do calculations for moves in a worker thread.
+
+- Use performance tools such as Systrace and Traceview to determine bottlenecks in your app's responsiveness.
+
+- If your application has a time-consuming initial setup phase, consider showing a splash screen or rendering the main view as quickly as possible, indicate that loading is in progress and fill the information asynchronously.
