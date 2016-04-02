@@ -1,5 +1,8 @@
 
-Apps nowadays are all about fancy **animations**, complex **transitions** and **custom views** And the experience must be the most robust and similar as possible in any device . So for improving my app quality, I use this checklist.
+Apps nowadays are all about fancy **animations**, complex **transitions** and **custom views** And the experience must be the most robust and similar as possible in any device .
+
+Any developer can write code that a computer can understand. Good programmers write code that humans can understand. 
+                                                                                                      Martin Fowler 
 
 ## Patterns to avoid bad performance
 
