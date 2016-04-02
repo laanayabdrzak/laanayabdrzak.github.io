@@ -119,3 +119,13 @@ Handle bitmaps in a poper way:
 - Cache data offline with TTLs for reloading
 
 - Use JobScheduler API to batch across OS
+
+## Patterns to use Services
+
+- Do not keep running service unless it's actively performing a job. Also be careful to stop service it when its work is done
+
+- System prefers to always keep the service process in running. Then the RAM used by the service can’t be used by anything else or paged out
+
+- The best way to limit the lifespan of your service is to use an IntentService, which finishes itself as soon as it's done handling the intent that started it
+
+- Leaving a service running when it’s not needed is one of the worst memory management mistakes an Android app can make
