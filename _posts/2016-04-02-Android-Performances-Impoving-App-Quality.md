@@ -127,3 +127,12 @@ Handle bitmaps in a poper way:
 - The best way to limit the lifespan of your service is to use an IntentService, which finishes itself as soon as it's done handling the intent that started it
 
 - Leaving a service running when it’s not needed is one of the worst memory management mistakes an Android app can make
+
+## Patterns for Threads
+
+- In a Thread run() method use Process.setThreadPriority() with **THREAD_PRIORITY_BACKGROUND**. This approach reduces resource competition between the Runnable object's thread and the UI thread.
+
+- If you don't set the thread to a lower priority this way, then the thread could still slow down your app because it operates at the same priority as the UI thread by default.
+
+- Stores the current Thread reference in your app, so that you want to interrupt the Thread later on. e.g On network failure you can cancel that thread operation.
+
