@@ -58,6 +58,14 @@ Keep It as Simple as Possible (KISS)
 
 - Consider using **Object Pools** and caches to reduce churn
 
+- Be mindful of the overhead of enums
+
+## Patterns for Memory
+
+- Do not allocate inside the draw path
+
+- Use specialized collections instead of JDK collections when appropriate (SparseArray)
+
 ## Patterns to avoid memory leaks 
 
 - Don't leak **contexts** in inner classes
@@ -70,23 +78,23 @@ Keep It as Simple as Possible (KISS)
  
 ## Patterns for CPU
 
-- Do not nest multi-pass layouts
+- Do not nest **multi-pass** layouts
 
 - Lazily compute complex data when needed
 
-- Cache heavy computational results for re-use
+- Cache **heavy** computational results for **re-use**
 
-- Consider RenderScript for performance
+- Consider **RenderScript** for performance
 
-- Keep work off of the main thread
+- Keep work **off** of the **main thread**
 
 ##  Patterns to avoid Overdraw
 
-- Simplify your drawables
+- Simplify your **drawables**
 
-- Use nine patch with transparent parts
+- Use **nine patch** with transparent parts
 
-- Caution with setting alpha in your views
+- Caution with setting **alpha** in your views
 
 ## Patterns to handling Bitmaps
 
@@ -99,14 +107,6 @@ Handle bitmaps in a poper way:
 - Don’t **scale** if you don’t need to (**createScaledBitmap(btimap, int, int)**)
 
 - Use **LRU** cache
-
-## Patterns for Memory
-
-- Do not allocate inside the draw path
-
-- Be mindful of the overhead of enums
-
-- Use specialized collections instead of JDK collections when appropriate (SparseArray)
 
 ## Patterns for I/O
 
