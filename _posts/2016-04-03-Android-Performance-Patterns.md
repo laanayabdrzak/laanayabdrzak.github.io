@@ -37,9 +37,9 @@ Apps nowadays are all about fancy **animations**, complex **transitions** and **
   
 Keep It as Simple as Possible (KISS)
 
-- Use <merge> tag as root in your layout (avoid extra ViewGroups on inflation)
+- Use **merge** tag as root in your layout (avoid extra ViewGroups on inflation)
 
-- <include> tag (easy code reuse of common layouts)
+- **include** tag (easy code reuse of common layouts)
 
 - Avoid **unnecessary** layouts
 
