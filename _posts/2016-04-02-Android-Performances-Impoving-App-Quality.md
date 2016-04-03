@@ -28,14 +28,6 @@ Apps nowadays are all about fancy **animations**, complex **transitions** and **
 
 - Use **Native** Methods Carefully
 
-##  Patterns to avoid overdraw
-
-- Simplify your drawables
-
-- Use nine patch with transparent parts
-
-- Caution with setting alpha in your views
-
 ## Patterns for custom views
   
 Keep It as Simple as Possible (KISS)
@@ -72,6 +64,8 @@ Keep It as Simple as Possible (KISS)
 
 - Don't leak **views** inside activity
 
+- Favor **static** inner classes over **non static**
+
 - Don't use **WeakHashmap** as cache. Only the keys are **WeakReference**
  
 ## Patterns for CPU
@@ -85,6 +79,14 @@ Keep It as Simple as Possible (KISS)
 - Consider RenderScript for performance
 
 - Keep work off of the main thread
+
+##  Patterns to avoid Overdraw
+
+- Simplify your drawables
+
+- Use nine patch with transparent parts
+
+- Caution with setting alpha in your views
 
 ## Patterns to handling Bitmaps
 
