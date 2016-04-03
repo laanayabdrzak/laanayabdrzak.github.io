@@ -1,7 +1,10 @@
+---
+layout: post
+title:  Android Performance Patterns
+feature-img: "img/background_post_101.png"
+---
 
-#Android Performance Patterns
-
-Apps nowadays are all about fancy **animations**, complex **transitions** and **custom views** And the experience must be the most robust and similar as possible in any device . those patterns help you build an app that's smooth, responsive, and uses as little battery as possible, it covers micro-optimizations that can improve overall app performance.
+Apps nowadays are all about fancy **animations**, complex **transitions** and **custom views** And the experience must be the most robust and similar as possible in any device . Those patterns gonna help you build an app that's smooth, responsive, and uses as little battery as possible, it covers micro-optimizations that can improve overall app performance.
 
 
 ## General Patterns to avoid bad performance
@@ -142,7 +145,7 @@ Handle bitmaps in a poper way:
 
 - If your application has a **time-consuming** initial setup phase, consider showing a **launch screen** or **rendering** the main view as quickly as possible, indicate that loading is in progress and fill the information asynchronously.
 
-links & Ressources:
+**links & Ressources:**
 
 - http://billynyh.github.io/tech-talks/google-android-performance-1.html
 - http://developer.android.com/training/best-performance.html
