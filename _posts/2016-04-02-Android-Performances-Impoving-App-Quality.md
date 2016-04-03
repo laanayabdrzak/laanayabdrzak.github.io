@@ -2,31 +2,31 @@
 Apps nowadays are all about fancy **animations**, complex **transitions** and **custom views** And the experience must be the most robust and similar as possible in any device . those patterns help you build an app that's smooth, responsive, and uses as little battery as possible
 
 
-### Patterns to avoid bad performance
+## Patterns to avoid bad performance
 
 - Avoid blocking **main Thread**
 
-- Avoid unnecessary invalidations that may trigger a cascade of invalidations
+- Avoid **unnecessary** invalidations that may **trigger** a cascade of invalidations
 
-- Use RelativeLayouts in a high hierarchy level
+- Use **RelativeLayouts** in a high hierarchy level
 
-- Avoid Nested weights in LinearLayouts ( Cz each child needs to be measured twice)
+- Avoid Nested **weights** in LinearLayouts ( Cz each child needs to be measured twice)
 
-- Avoid Customs views not properly made
+- Avoid Customs **views** not **properly** made
 
-- Avoid Creating Unnecessary Objects
+- Avoid Creating **Unnecessary** Objects
 
-- Use Static Final For Constants (static 15%-20% faster)
+- Use **Static Final** For Constants (static 15%-20% faster)
 
 - Primitives (Integer vs Float 2x slower)
 
-- Avoid Internal Getters/Setters (direct field access 3x faster)
+- Avoid Internal **Getters/Setters** (direct field access 3x faster)
 
-- Use Enhanced For Loop Syntax
+- Use Enhanced For **Loop** Syntax
 
-- Consider Package Instead of Private Access with Private Inner Classes
+- Consider **Package** Instead of Private Access with Private Inner Classes
 
-- Use Native Methods Carefully
+- Use **Native** Methods Carefully
 
 ##  Patterns to avoid overdraw
 
@@ -40,15 +40,15 @@ Apps nowadays are all about fancy **animations**, complex **transitions** and **
   
 Keep It as Simple as Possible (KISS)
 
-- Use <merge> tag as root in your layout (avoid extra ViewGroups on inflation)
+- Use **<merge>** tag as root in your layout (avoid extra ViewGroups on inflation)
 
-- <include> tag (easy code reuse of common layouts)
+- **<include>** tag (easy code reuse of common layouts)
 
-- Avoid unnecessary layouts
+- Avoid **unnecessary** layouts
 
-- Don’t make allocations or heavy operations in OnDraw
+- Don’t make allocations or heavy operations in **OnDraw**
 
-- Remove unnecessary calls to invalidate()
+- Remove unnecessary calls to **invalidate()**
 
 - Consider creating your own ViewGroup 
 
@@ -56,7 +56,7 @@ Keep It as Simple as Possible (KISS)
 
 ## Patterns to avoid memory churn
 
-- Don’t allocate a large amount of unnecessary objects:
+- Don’t allocate a large amount of **unnecessary** objects:
 	
 	- Immutable classes: String
 	
@@ -64,15 +64,15 @@ Keep It as Simple as Possible (KISS)
 	
 	- Don’t allocate in onDraw
 
-- Consider using Object Pools
+- Consider using **Object Pools** and caches to reduce churn
 
 ## Patterns to avoid memory leaks 
 
-- Don't leak contexts in inner classes
+- Don't leak **contexts** in inner classes
 
-- Don't leak views inside activity
+- Don't leak **views** inside activity
 
-- Don't use WeakHashmap as cache. Only the keys are weak references 
+- Don't use **WeakHashmap** as cache. Only the keys are **weak references**
  
 ## Patterns for CPU
 
@@ -90,37 +90,35 @@ Keep It as Simple as Possible (KISS)
 
 Handle bitmaps in a poper way:
 
-- Decode bitmaps to the desire size: BitmapFactory.Options (inSampleSize, inDensity, inTargetDensity)
+- Decode **bitmaps** to the desire size: **BitmapFactory.Options** (inSampleSize, inDensity, inTargetDensity)
   
-- Load bitmaps in memory at the dimensions is going to be displayed
+- Load bitmaps in **memory** at the dimensions is going to be displayed
 
-- Don’t scale if you don’t need to (createScaledBitmap(btimap, int, int)
+- Don’t **scale** if you don’t need to (**createScaledBitmap(btimap, int, int)**)
 
-- Use LRU cache
+- Use **LRU** cache
 
 ## Patterns for Memory
 
-- Use object pools and caches to reduce churn
+- Do not allocate inside the draw path
 
 - Be mindful of the overhead of enums
-
-- Do not allocate inside the draw path
 
 - Use specialized collections instead of JDK collections when appropriate (SparseArray)
 
 ## Patterns for I/O
 
-- Batch operations with reasonable back-off policies
+- Batch operations with reasonable **back-off** policies
 
-- Use gzip or binary serialization format
+- Use **gzip** or **binary** serialization format
 
-- Cache data offline with TTLs for reloading
+- Cache **data** offline with **TTLs** for reloading
 
-- Use JobScheduler API to batch across OS
+- Use **JobScheduler API** to batch across OS
 
 ## Patterns for Services
 
-- Do not keep running service unless it's actively performing a job. Also be careful to stop service it when its work is done
+- Do not keep running **service** unless it's actively **performing** a job. Also be careful to **stop** service it when its work is done
 
 - System prefers to always keep the service process in running. Then the RAM used by the service can’t be used by anything else or paged out
 
@@ -130,9 +128,9 @@ Handle bitmaps in a poper way:
 
 ## Patterns for Threads
 
-- In a Thread run() method use Process.setThreadPriority() with **THREAD_PRIORITY_BACKGROUND**. This approach reduces resource competition between the Runnable object's thread and the UI thread.
+- In a Thread **run()** method use **Process.setThreadPriority()** with **THREAD_PRIORITY_BACKGROUND**. This approach reduces resource competition between the Runnable object's thread and the **UI thread**.
 
-- If you don't set the thread to a lower priority this way, then the thread could still slow down your app because it operates at the same priority as the UI thread by default.
+- If you don't set the thread to a **lower priority** this way, then the thread could still slow down your app because it operates at the **same priority** as the **UI thread** by default.
 
 - Stores the current Thread reference in your app, so that you want to interrupt the Thread later on. e.g On network failure you can cancel that thread operation.
 
@@ -144,6 +142,6 @@ Handle bitmaps in a poper way:
 
 - If your application is doing work in the background in response to user input, show that progress is being made (such as with a ProgressBar in your UI).
 
-- Use performance tools such as Systrace and Traceview to determine bottlenecks in your app's responsiveness.
+- Use performance tools such as **Systrace** and **Traceview** to determine bottlenecks in your app's responsiveness.
 
 - If your application has a time-consuming initial setup phase, consider showing a launch screen or rendering the main view as quickly as possible, indicate that loading is in progress and fill the information asynchronously.
