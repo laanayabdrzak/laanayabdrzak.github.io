@@ -4,7 +4,7 @@ title:  Android Performance Patterns
 feature-img: "img/background_post_101.png"
 ---
 
-Apps nowadays are all about fancy **animations**, complex **transitions** and **custom views**, and the user experience must be intuitive and similar as possible in any device. This patterns gonna help you build an app that's smooth, responsive, and uses as little battery as possible, it covers micro-optimizations that can improve overall app performance.
+Apps nowadays are all about fancy **animations**, complex **transitions** and **custom views**, and the user experience must be intuitive and similar as possible in any device. These patterns gonna help you build an app that's smooth, responsive, and uses as little battery as possible, it covers micro-optimizations that can improve overall app performance.
 
 
 ## General Patterns to avoid bad performance
