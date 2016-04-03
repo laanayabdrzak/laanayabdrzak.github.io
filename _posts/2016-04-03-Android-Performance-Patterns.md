@@ -47,9 +47,9 @@ Keep It as Simple as Possible (KISS)
 
 - Remove unnecessary calls to **invalidate()**
 
-- Consider creating your own ViewGroup 
+- Consider creating your own **ViewGroup**
 
-- RecyclerView (replaces ListView and GridView)
+- **RecyclerView** (replaces ListView and GridView)
 
 ## Patterns to avoid memory churn
 
@@ -58,12 +58,10 @@ Keep It as Simple as Possible (KISS)
 	- Immutable classes: String
 	
 	- Autoboxing: Integer, Boolean…
-	
-	- Don’t allocate in onDraw
 
 - Consider using **Object Pools** and caches to reduce churn
 
-- Be mindful of the overhead of enums (a single reference to an enum constant occupy **4 bytes**)
+- Be mindful of the overhead of **enums** (a single reference to an enum constant occupy **4 bytes**)
 
 ## Patterns to avoid memory leaks 
 
