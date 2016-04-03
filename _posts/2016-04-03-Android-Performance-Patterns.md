@@ -147,7 +147,7 @@ Handle bitmaps in a poper way:
 
 **links & Ressources:**
 
-- http://billynyh.github.io/tech-talks/google-android-performance-1.html
-- http://developer.android.com/training/best-performance.html
-- http://developer.android.com/training/articles/perf-tips.html
+- [http://billynyh.github.io/tech-talks/google-android-performance-1.html](http://billynyh.github.io/tech-talks/google-android-performance-1.html)
+- [http://developer.android.com/training/best-performance.html](http://developer.android.com/training/best-performance.html)
+- [http://developer.android.com/training/articles/perf-tips.html](http://developer.android.com/training/articles/perf-tips.html)
 
