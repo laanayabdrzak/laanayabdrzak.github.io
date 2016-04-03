@@ -132,16 +132,14 @@ Handle bitmaps in a poper way:
 
 - If you don't set the thread to a **lower priority** this way, then the thread could still slow down your app because it operates at the **same priority** as the **UI thread** by default.
 
-- Stores the current Thread reference in your app, so that you want to interrupt the Thread later on. e.g On network failure you can cancel that thread operation.
+- **Stores** the current **Thread** reference in your app, so that you want to interrupt the Thread later on. e.g On network failure you can cancel that thread operation.
 
 ## Patterns to avoid ARNs
 
-- On **UI thread** do as little work as possible.
-
-- **Process.setThreadPriority()** else Thread will be equal to UI thread
+- On **UI thread** do as little work as possible
 
 - If your application is doing work in the background in response to user input, show that progress is being made (such as with a ProgressBar in your UI).
 
 - Use performance tools such as **Systrace** and **Traceview** to determine bottlenecks in your app's responsiveness.
 
-- If your application has a time-consuming initial setup phase, consider showing a launch screen or rendering the main view as quickly as possible, indicate that loading is in progress and fill the information asynchronously.
+- If your application has a **time-consuming** initial setup phase, consider showing a **launch screen** or **rendering** the main view as quickly as possible, indicate that loading is in progress and fill the information asynchronously.
