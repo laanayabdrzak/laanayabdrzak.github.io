@@ -72,7 +72,7 @@ Keep It as Simple as Possible (KISS)
 
 - Don't leak **views** inside activity
 
-- Don't use **WeakHashmap** as cache. Only the keys are **weak references**
+- Don't use **WeakHashmap** as cache. Only the keys are **WeakReference**
  
 ## Patterns for CPU
 
