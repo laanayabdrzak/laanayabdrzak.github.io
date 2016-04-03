@@ -58,7 +58,7 @@ Keep It as Simple as Possible (KISS)
 
 - Consider using **Object Pools** and caches to reduce churn
 
-- Be mindful of the overhead of enums
+- Be mindful of the overhead of enums (a single reference to an enum constant occupy **4 bytes**)
 
 ## Patterns for Memory
 
