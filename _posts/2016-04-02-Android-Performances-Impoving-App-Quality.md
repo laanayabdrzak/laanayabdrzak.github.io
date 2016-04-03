@@ -60,12 +60,6 @@ Keep It as Simple as Possible (KISS)
 
 - Be mindful of the overhead of enums (a single reference to an enum constant occupy **4 bytes**)
 
-## Patterns for Memory
-
-- Do not allocate inside the draw path
-
-- Use specialized collections instead of JDK collections when appropriate (SparseArray)
-
 ## Patterns to avoid memory leaks 
 
 - Don't leak **contexts** in inner classes
