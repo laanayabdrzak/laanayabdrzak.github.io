@@ -35,7 +35,7 @@ Apps nowadays are all about fancy **animations**, complex **transitions** and **
 
 ## Patterns for custom views
   
-Keep It as Simple as Possible (KISS)
+- Keep It as Simple as Possible (KISS)
 
 - Use **merge** tag as root in your layout (avoid extra ViewGroups on inflation)
 
@@ -94,8 +94,6 @@ Keep It as Simple as Possible (KISS)
 - Caution with setting **alpha** in your views
 
 ## Patterns to handling Bitmaps
-
-Handle bitmaps in a poper way:
 
 - Decode **bitmaps** to the desire size: **BitmapFactory.Options** (inSampleSize, inDensity, inTargetDensity)
   
