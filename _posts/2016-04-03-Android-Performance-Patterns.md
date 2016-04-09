@@ -121,7 +121,7 @@ Apps nowadays are all about fancy **animations**, complex **transitions** and **
 
 - **Stores** the current **Thread** reference in your app, so that you want to interrupt the Thread later on. e.g On network failure you can cancel that thread operation.
 
-## Patterns to avoid ARNs
+## Patterns to avoid ANRs
 
 - On **UI thread** do as little work as possible
 
